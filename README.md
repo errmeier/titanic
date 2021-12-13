@@ -3,7 +3,7 @@ CSE 40647 Data Science Project
 
 ## Data Organization
 
-Data is partitioned into test and train subsets.
+Data is partitioned into 5 different test and train subsets (a, b, c, d, e train and test).
 The full, raw data from Kaggle is located in kaggle_train.csv and kaggle_test.csv.
 The labeled data was split into n_train.csv and n_test.csv (excludes fields name,
 ticket, cabin, embarked), and any rows with missing features were also excluded.
