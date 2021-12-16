@@ -1,6 +1,21 @@
 # titanic
 CSE 40647 Data Science Project
 
+## File Structure
+
+### Data
+The raw data files as well as the processed data files are in the data folder.
+As mentioned below, the 5 different train and test subsets are labeled a through e.
+The "n_train" and "n_test" files refer to pre-milestone when holdout validation (80%/20% split)
+was used. The "kaggle_train" and "kaggle_test" are the raw data files downloaded from Kaggle.
+
+### Code
+The code used to preprocess the data as well as generate the models and the graphs are found in the src folder. 
+The maiin python file to generate the models is the python notebook "titanic.pynb" which was produced using Colab.
+
+
+
+
 ## Data Organization
 
 Data is partitioned into 5 different test and train subsets (a, b, c, d, e train and test).
